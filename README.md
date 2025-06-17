@@ -1,0 +1,1 @@
+# AZ_AI_Foundry_SQL_DWH_Query
