@@ -133,8 +133,3 @@ MIT License
 
 ---
 
-**Need help?** Open an issue or discussion on GitHub!
-
----
-
-> *Ready to copy & use. Update placeholder values in `.env` before running.*
