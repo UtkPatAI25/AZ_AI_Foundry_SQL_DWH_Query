@@ -1,0 +1,10 @@
+python-dotenv
+sqlalchemy
+pandas
+langchain
+langchain-community
+langchain-openai
+gradio
+ipywidgets
+tqdm
+pyodbc
