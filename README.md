@@ -2,6 +2,9 @@
 
 This project is an AI-powered SQL assistant that enables users to query a SQL Data Warehouse using natural language. It leverages Azure OpenAI, LangChain, and Gradio to generate and explain SQL queries, returning results and explanations in a user-friendly web interface.
 
+![image](https://github.com/user-attachments/assets/5f6f7268-6183-43b9-b26f-3ec233c99a06)
+
+
 ## Features
 
 - **Natural Language to SQL:** Converts user questions into SQL, executes them, and explains the results.
@@ -38,10 +41,11 @@ Create a `.env` file in the project root with the following contents:
 
 ```
 py-connectionString=YOUR_SQL_CONNECTION_STRING
-AZURE_OPENAI_DEPLOYMENT_NAME=YOUR_DEPLOYMENT_NAME
-AZURE_OPENAI_ENDPOINT=YOUR_OPENAI_ENDPOINT
+#Example: mssql+pyodbc://<username>:<password>%40@<sqlservername>/<databasename>?driver=ODBC+Driver+17+for+SQL+Server
+AZURE_OPENAI_DEPLOYMENT_NAME=YOUR_DEPLOYMENT_NAME #Example: gpt-4.1-nano
+AZURE_OPENAI_ENDPOINT=YOUR_OPENAI_ENDPOINT #Example: https://sqldwh.openai.azure.com/
 AZURE_OPENAI_API_KEY=YOUR_API_KEY
-AZURE_OPENAI_API_VERSION=2024-02-15-preview
+AZURE_OPENAI_API_VERSION=2025-01-01-preview
 ```
 
 ---
@@ -55,6 +59,9 @@ Ensure your SQL database contains a table named `schema_metadata` with the follo
 - `column_name`
 - `data_type`
 - `description`
+
+  ![image](https://github.com/user-attachments/assets/37e972d1-0619-4f21-8e9d-17c749e211fc)
+
 
 This allows the assistant to understand your database schema.
 
