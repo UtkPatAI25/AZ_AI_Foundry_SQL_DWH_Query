@@ -103,7 +103,7 @@ After launch, access the Gradio web UI at:
 
 - Go to your Azure OpenAI resource.
 - In the left menu, select **Deployments** > **+ Create**.
-- Choose a model (e.g., `gpt-4`, `gpt-3.5-turbo`).
+- Choose a model (e.g., `gpt-4.1`, `gpt-4o-mini`).
 - Enter a **deployment name** (save this for your `.env`).
 - Click **Create**.
 
