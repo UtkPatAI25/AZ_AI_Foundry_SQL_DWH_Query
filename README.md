@@ -86,7 +86,7 @@ python AzAIFo_OpenAI_SQL.py
 ### 6. Access the Web Interface
 
 After launch, access the Gradio web UI at:  
-[http://127.0.0.1:7865](http://127.0.0.1:7865)
+[http://127.0.0.1:7860](http://127.0.0.1:7860)
 
 ---
 
